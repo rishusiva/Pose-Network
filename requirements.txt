@@ -95,7 +95,7 @@ parso==0.7.1
 passlib==1.6.2
 patsy==0.5.1
 pickleshare==0.7.5
-Pillow==8.0.1
+Pillow==8.3.2
 pipwin==0.5.1
 plotly==4.12.0
 plotly-express==0.4.1
