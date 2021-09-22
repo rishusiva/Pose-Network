@@ -1,3 +1,5 @@
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 # RealTime Sign Language Detection using Action Recognition
 
 ## Approach
@@ -69,3 +71,8 @@ The Weights of the model are saved in the `lstm_model.h5` file.
 <p align="left">
 <img width=50% src="Images/4 (1).gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
+
+## Author
+* Rishikesh Sivakumar
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by [Rishikesh Sivakumar](https://www.linkedin.com/in/rishikesh-sivakumar-1a166a18b/)
