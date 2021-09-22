@@ -10,7 +10,7 @@ attrs==20.3.0
 automata-lib==4.0.0.post1
 backcall==0.2.0
 beautifulsoup4==4.9.3
-bleach==3.2.1
+bleach==3.3.0
 bokeh==2.3.3
 bs4==0.0.1
 cached-property==1.5.2
