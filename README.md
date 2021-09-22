@@ -37,7 +37,7 @@ The dataset can be accessed from the `Feature_Extraction` Folder.
 LSTM Model is trained using the extracted keypoints from the `Feature_Extraction` folder and later used for real time predictions.
 
 <p align="left">
-<img width=40% src="Images/3.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=50% src="Images/3.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 
 ## Results
@@ -49,5 +49,5 @@ LSTM Model is trained using the extracted keypoints from the `Feature_Extraction
 ### Prediction Results:
 
 <p align="left">
-<img width=40% src="Images/4(1).gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=50% src="Images/4 (1).gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
