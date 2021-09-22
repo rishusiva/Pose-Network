@@ -29,3 +29,25 @@ For each sequence , 1662 keypoints have been extracted.
 <img width=40% src="Images/1.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 <img width=40% src="Images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
 </p>
+
+The dataset can be accessed from the `Feature_Extraction` Folder.
+
+## Model 
+
+LSTM Model is trained using the extracted keypoints from the `Feature_Extraction` folder and later used for real time predictions.
+
+<p align="left">
+<img width=40% src="Images/3.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+</p>
+
+## Results
+
+* Our LSTM Model, after training for only 100 epochs, has an accuracy of *70%*
+* It produced an accuracy score of *1.0* on a test set of 5 images.
+* Our Trained LSTM Model is then used for real time testing. 
+
+### Prediction Results:
+
+<p align="left">
+<img width=40% src="Images/4(1).gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+</p>
