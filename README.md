@@ -20,12 +20,12 @@ Data is collected using MediaPipe Holistic for 3 actions :
 
 30 frames have been collected for each action and 30 sequences for each frame have been collected from real time actions using `Computer Vision` and `MediaPipe Holistic`.
 For each sequence , 1662 keypoints have been extracted.
-* Face Landmarks - 468
-* Pose Landmarks - 33
-* Left Hand Landmarks - 21
-* Right Hand Landmarks - 21
+* Face Landmarks - 468*3
+* Pose Landmarks - 33*4
+* Left Hand Landmarks - 21*3
+* Right Hand Landmarks - 21*3
 
 <p align="left">
-<img width=40% src="Images/1.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-<img width=40% src="Images/2.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
+<img width=40% src="Images/1.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="Images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
 </p>
