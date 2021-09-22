@@ -40,6 +40,24 @@ LSTM Model is trained using the extracted keypoints from the `Feature_Extraction
 <img width=50% src="Images/3.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 
+The Weights of the model are saved in the `lstm_model.h5` file.
+
+## How to Use
+
+* Clone the repository using :
+
+        $ git clone https://github.com/rishusiva/Team-Onix_FallBout
+                
+* Install the requirements using:
+
+        $ cd Team-Onix_FallBout/
+        $ pip install -r requirements.txt
+
+* To Predict Sign Languages in Real Time , run : 
+
+        $ cd Team-Onix_FallBout/Code
+        $ python3 realtime_testing.py
+        
 ## Results
 
 * Our LSTM Model, after training for only 100 epochs, has an accuracy of *70%*
