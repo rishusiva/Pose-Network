@@ -1,4 +1,5 @@
 from modules import *
+from Data_Preprocessing import X_train,y_train
 
 model = Sequential()
 model.add(LSTM(64, return_sequences=True, activation='relu', input_shape=(30,1662)))
