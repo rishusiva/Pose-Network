@@ -1,4 +1,4 @@
-from modules import *
+from Code.modules import *
 
 
 DATA_PATH = os.path.join('Feature_Extraction') 

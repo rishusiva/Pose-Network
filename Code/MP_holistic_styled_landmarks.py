@@ -1,4 +1,4 @@
-from modules import *
+from Code.modules import *
 
 mp_holistic = mp.solutions.holistic 
 mp_drawing = mp.solutions.drawing_utils

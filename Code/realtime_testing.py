@@ -5,16 +5,17 @@ from keypoints_extraction import extract_keypoints
 import keras
 from folder_setup import *
 from visualization import prob_viz,colors
-
-
+import tensorflow as tf
+from get_model import get_model
 
 sequence = []
 sentence = []
 threshold = 0.8
 
-model = keras.models.load_model('Model\lstm_model.h5')
+model = get_model()
+model.load_weights("Code/action.h5")
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(31)
 
 with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
     while cap.isOpened():
