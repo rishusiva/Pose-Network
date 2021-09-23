@@ -48,16 +48,16 @@ The Weights of the model are saved in the `lstm_model.h5` file.
 
 * Clone the repository using :
 
-        $ git clone https://github.com/rishusiva/Team-Onix_FallBout
+        $ git clone https://github.com/rishusiva/Pose-Network
                 
 * Install the requirements using:
 
-        $ cd Team-Onix_FallBout/
+        $ cd Pose-Network/
         $ pip install -r requirements.txt
 
 * To Predict Sign Languages in Real Time , run : 
 
-        $ cd Team-Onix_FallBout/Code
+        $ cd Pose-Network/Code
         $ python3 realtime_testing.py
         
 ## Results
