@@ -1,6 +1,7 @@
 # How to Contribute?
-Pull requests are the best way to propose changes to the codebase. We actively welcome your pull requests:
+Pull requests are the best way to propose changes to the codebase. We actively welcome your pull requests. You can send a pull request by following the steps below.
 
+## Steps
 1. Once you figure out what to contribute, open an issue at <a href = "https://github.com/rishusiva/Pose-Network/issues">Issues</a>. Make sure that the issue is detailed with respect to your contribution.
 
 2. **Fork the repo** and create your branch from `main`.
