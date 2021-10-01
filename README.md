@@ -87,4 +87,4 @@ Contributions are always welcome! You can contribute to this project in the foll
 - [ ] Bug fixes if any
 - [ ] Creating an application
 
-Do check out the <a href="https://github.com/rishusiva/Pose-Network/blob/main/Docs/Contribution.md">document</a> for Contribution Guidelines.
+Do check out the <a href="https://github.com/rishusiva/Pose-Network/blob/main/Docs/Contribution.md">documentation</a> for Contribution Guidelines.
