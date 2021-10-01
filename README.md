@@ -50,15 +50,17 @@ The Weights of the model are saved in the `lstm_model.h5` file.
 
         $ git clone https://github.com/rishusiva/Pose-Network
                 
-* Install the requirements using:
+* Enter the directory using:
 
         $ cd Pose-Network/
+      
+* Install the requirements using:
+
         $ pip install -r requirements.txt
 
 * To Predict Sign Languages in Real Time , run : 
 
-        $ cd Pose-Network/Code
-        $ python3 realtime_testing.py
+        $ python3 test.py
         
 ## Results
 
@@ -76,3 +78,13 @@ The Weights of the model are saved in the `lstm_model.h5` file.
 * Rishikesh Sivakumar
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by [Rishikesh Sivakumar](https://www.linkedin.com/in/rishikesh-sivakumar-1a166a18b/)
+
+## Contribution 
+
+Contributions are always welcome! You can contribute to this project in the following way:
+- [ ] Increasing the accuracy 
+- [ ] Adding more signs 
+- [ ] Bug fixes if any
+- [ ] Creating an application
+
+Do check out the <a href="https://github.com/rishusiva/Pose-Network/Docs/contribution.MD">document</a> for Contribution Guidelines.
