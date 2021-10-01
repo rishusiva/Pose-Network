@@ -1,5 +1,5 @@
-from modules import *
-from landmark_detection import results
+from Code.modules import *
+from Code.landmark_detection import results
 
 
 def extract_keypoints(results):

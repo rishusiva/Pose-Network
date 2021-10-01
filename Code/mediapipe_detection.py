@@ -1,4 +1,4 @@
-from modules import *
+from Code.modules import *
 
 def mediapipe_detection(image, model):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) 
