@@ -1,3 +1,5 @@
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 # RealTime Sign Language Detection using Action Recognition
 
 ## Approach
@@ -29,3 +31,48 @@ For each sequence , 1662 keypoints have been extracted.
 <img width=40% src="Images/1.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 <img width=40% src="Images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
 </p>
+
+The dataset can be accessed from the `Feature_Extraction` Folder.
+
+## Model 
+
+LSTM Model is trained using the extracted keypoints from the `Feature_Extraction` folder and later used for real time predictions.
+
+<p align="left">
+<img width=50% src="Images/3.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+</p>
+
+The Weights of the model are saved in the `lstm_model.h5` file.
+
+## How to Use
+
+* Clone the repository using :
+
+        $ git clone https://github.com/rishusiva/Pose-Network
+                
+* Install the requirements using:
+
+        $ cd Pose-Network/
+        $ pip install -r requirements.txt
+
+* To Predict Sign Languages in Real Time , run : 
+
+        $ cd Pose-Network/Code
+        $ python3 realtime_testing.py
+        
+## Results
+
+* Our LSTM Model, after training for only 100 epochs, has an accuracy of *70%*
+* It produced an accuracy score of *1.0* on a test set of 5 images.
+* Our Trained LSTM Model is then used for real time testing. 
+
+### Prediction Results:
+
+<p align="left">
+<img width=50% src="Images/4 (1).gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+</p>
+
+## Author
+* Rishikesh Sivakumar
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by [Rishikesh Sivakumar](https://www.linkedin.com/in/rishikesh-sivakumar-1a166a18b/)
