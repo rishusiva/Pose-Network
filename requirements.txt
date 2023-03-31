@@ -77,7 +77,7 @@ mpmath==1.2.1
 msgpack-python==0.5.6
 music21==6.7.1
 nbclient==0.5.1
-nbconvert==6.0.7
+nbconvert==6.5.1
 nbformat==5.0.8
 nest-asyncio==1.4.2
 nltk==3.6.5
