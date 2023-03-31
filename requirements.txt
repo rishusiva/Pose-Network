@@ -142,7 +142,7 @@ sklearn==0.0
 smart-open==5.1.0
 soupsieve==2.2.1
 SpeechRecognition==3.8.1
-starlette==0.14.2
+starlette==0.25.0
 statsmodels==0.12.1
 sympy==1.7.1
 tb-nightly==1.14.0a20190301
