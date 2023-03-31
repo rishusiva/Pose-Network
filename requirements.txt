@@ -58,7 +58,7 @@ joblib==1.2.0
 Js2Py==0.71
 jsonschema==3.2.0
 jupyter-client==6.1.7
-jupyter-core==4.6.3
+jupyter-core==4.11.2
 jupyterlab-pygments==0.1.2
 Keras==2.4.3
 Keras-Applications==1.0.8
