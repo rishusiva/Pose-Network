@@ -169,7 +169,7 @@ virtualenv==20.4.3
 wcwidth==0.2.5
 webcolors==1.11.1
 webencodings==0.5.1
-Werkzeug==2.2.3
+Werkzeug==3.0.3
 wordcloud==1.8.1
 wrapt==1.12.1
 xgboost==1.4.1
